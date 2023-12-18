@@ -2,15 +2,15 @@
 
 
 class Animal:
-    def __init__(self, weight, height):
+    def __init__(self, weight: float, height: float):
         self.weight = weight
         self.height = height
 
-    def jump(self):
+    def jump(self) -> None:
         print("Jump!")
 
 
-def main():
+def main() -> None:
     dog = Animal(10, 0.8)
     print(dog.height)
     print(dog.weight)

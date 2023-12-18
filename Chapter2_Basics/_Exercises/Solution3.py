@@ -10,7 +10,7 @@ of the dictionary "d" and only print the name of the students.
 """
 
 
-def exercise1(dct):
+def exercise1(dct: dict) -> int:
     num_students = 0
     for val in dct.values():
         if val == "Student":
@@ -18,13 +18,17 @@ def exercise1(dct):
     return num_students
 
 
-def exercise2(dct):
+def exercise2(dct: dict) -> None:
     for key, val in dct.items():
         if val == "Student":
             print(key, "is a student")
 
 
-d = {"Oskar": "Student", "Jan": "Instructor", "Thomas": "Student"}
+d = {
+    "Oskar": "Student",
+    "Jan": "Instructor",
+    "Thomas": "Student",
+}
 print(exercise1(d))
 
 exercise2(d)

@@ -2,9 +2,14 @@ from math_lib import list_max
 from math_lib import list_min
 
 
-list1 = [-2, 1, 2, -10, 22, -10]
-list_max(list1)
-list_min(list1)
-list2 = [-20, 123, 112, -10, 22, -120]
-list_max(list2)
-list_min(list2)
+def main() -> None:
+    list1 = [-2, 1, 2, -10, 22, -10]
+    list_max(list1)
+    list_min(list1)
+    list2 = [-20, 123, 112, -10, 22, -120]
+    list_max(list2)
+    list_min(list2)
+
+
+if __name__ == "__main__":
+    main()

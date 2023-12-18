@@ -10,15 +10,15 @@ the current index and the current value in each iteration.
 """
 
 
-def exercise1(n):
+def exercise1(n: int) -> list[int]:
     pass
 
 
-def exercise2(lst):
+def exercise2(lst: list) -> None:
     pass
 
 
-def main():
+def main() -> None:
     n = 10
     lst = exercise1(n)
     print(lst)

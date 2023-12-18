@@ -10,15 +10,19 @@ of the dictionary "d" and only print the name of the students.
 """
 
 
-def exercise1(dct):
+def exercise1(dct: dict) -> int:
     pass
 
 
-def exercise2(dct):
+def exercise2(dct: dict) -> None:
     pass
 
 
-d = {"Oskar": "Student", "Jan": "Instructor", "Thomas": "Student"}
+d = {
+    "Oskar": "Student",
+    "Jan": "Instructor",
+    "Thomas": "Student",
+}
 print(exercise1(d))
 
 exercise2(d)

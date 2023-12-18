@@ -34,10 +34,20 @@ class Student:
         )
 
 
-def main():
-    oskar = Student("Oskar", "Oskarson", 29, 1080132254623)
+def main() -> None:
+    oskar = Student(
+        "Oskar",
+        "Oskarson",
+        29,
+        1080132254623,
+    )
     oskar.print_student()
-    jan = Student("Jan", "Schaffranek", 28, 1080133228459)
+    jan = Student(
+        "Jan",
+        "Schaffranek",
+        28,
+        1080133228459,
+    )
     jan.print_student()
 
 

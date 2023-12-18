@@ -10,16 +10,16 @@ the current index and the current value in each iteration.
 """
 
 
-def exercise1(n):
+def exercise1(n: int) -> list[int]:
     return [2**i for i in range(n)]
 
 
-def exercise2(lst):
+def exercise2(lst: list) -> None:
     for idx, val in enumerate(lst):
         print(idx, val)
 
 
-def main():
+def main() -> None:
     n = 5
     lst = exercise1(n)
     print(lst)
