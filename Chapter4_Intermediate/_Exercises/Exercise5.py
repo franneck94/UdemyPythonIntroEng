@@ -16,7 +16,7 @@ class Student:
     def __init__(self):  # noqa: ANN204
         pass
 
-    def print_student(self):  # noqa: ANN201
+    def print_student(self):
         pass
 
 
