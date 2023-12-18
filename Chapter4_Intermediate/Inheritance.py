@@ -12,7 +12,7 @@ class Dog(Animal):
     def __init__(self, weight: float, height: float) -> None:
         super().__init__(weight, height)
 
-    def bark(self) -> None:
+    def bark(self) -> None:  # noqa: PLR6301
         print("Bark!")
 
 
@@ -20,7 +20,7 @@ class Cat(Animal):
     def __init__(self, weight: float, height: float) -> None:
         super().__init__(weight, height)
 
-    def meow(self) -> None:
+    def meow(self) -> None:  # noqa: PLR6301
         print("Meow!")
 
 

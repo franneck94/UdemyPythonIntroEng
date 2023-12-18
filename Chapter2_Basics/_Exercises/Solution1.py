@@ -13,7 +13,7 @@ Write code that takes two floats x, y and computes:
 # exercise1
 number = 8
 
-if number > 10 or number < 0:
+if number > 10 or number < 0:  # noqa: PLR2004
     print("True")
 else:
     print("False")

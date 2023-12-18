@@ -2,11 +2,11 @@
 
 
 class Animal:
-    def __init__(self, weight: float, height: float):
+    def __init__(self, weight: float, height: float):  # noqa: ANN204
         self.weight = weight
         self.height = height
 
-    def jump(self) -> None:
+    def jump(self) -> None:  # noqa: PLR6301
         print("Jump!")
 
 

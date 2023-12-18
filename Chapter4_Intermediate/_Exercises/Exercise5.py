@@ -13,10 +13,10 @@ E.g. Student('Jan', 'Schaffranek', 27, 1080133228459) will print:
 
 
 class Student:
-    def __init__(self):
+    def __init__(self):  # noqa: ANN204
         pass
 
-    def print_student(self):
+    def print_student(self):  # noqa: ANN201
         pass
 
 
